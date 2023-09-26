@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='bootstrap.min.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/confirmation" method="POST" class="bg-light text-center" style="padding:12px">
+        <label for="recipename">Recipe Name</label><br>
+        <input type="text" id="recipename" name="recipename" placeholder="Recipe Name"><br>
+
+         <label for="recipedetails"></label><br>
+        <textarea id="recipedetails" cols="60" rows="10" name="recipedetails"></textarea>
+        <br>
+        
+         <button type="submit" class="btn btn-lg btn-primary"> submit recipe</button>
+    </form>
+
+
+</body>
+</html>

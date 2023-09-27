@@ -23,8 +23,8 @@ class recipeinfo(db.Model):
         self.recipe_title=recipe_title
         self.recipe_detail=recipe_detail
 
-with app.app_context():
-    db.create_all()
+# with app.app_context():
+#     db.create_all()
 
 
 
